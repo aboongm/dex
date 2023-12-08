@@ -1,0 +1,30 @@
+{
+  "name": "with-vite",
+  "private": true,
+  "version": "0.0.58",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@rainbow-me/rainbowkit": "^1.2.0",
+    "buffer": "^6.0.3",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "use-debounce": "^10.0.0",
+    "viem": "~1.16.3",
+    "wagmi": "~1.4.3",
+    "web3modal": "^1.9.12"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "@types/web3": "^1.2.2",
+    "@vitejs/plugin-react": "^4.0.3",
+    "typescript": "^5.0.4",
+    "vite": "^4.4.7"
+  }
+}
